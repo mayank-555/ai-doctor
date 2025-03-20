@@ -1,4 +1,30 @@
-# Project Setup Guide
+#AI Doctor with Vision and Voice
+
+**Overview
+
+AI Doctor with Vision and Voice is a multimodal AI-powered virtual doctor capable of analyzing medical images, transcribing speech, and providing medical insights. It leverages advanced AI models, including Groq's multimodal LLM, Whisper for speech recognition, and ElevenLabs or gTTS for text-to-speech synthesis. The system is integrated into a user-friendly Gradio interface for seamless interaction.
+
+**Features
+
+Medical Image Analysis: Upload medical images (X-rays, MRIs, etc.) for AI-powered insights.
+
+Speech-to-Text (STT): Converts spoken queries into text using Whisper.
+
+Text-to-Speech (TTS): Converts AI-generated responses into speech using ElevenLabs or gTTS.
+
+User-Friendly Interface: Built with Gradio for an intuitive experience.
+
+**Tech Stack
+
+Python: Core programming language.
+
+Groq API: For multimodal image and text analysis.
+
+Whisper: For speech recognition (STT).
+
+ElevenLabs/gTTS: For text-to-speech (TTS) synthesis.
+
+Gradio: For creating the web-based user interface.# Project Setup Guide
 
 This guide provides step-by-step instructions to set up your project environment, including the installation of FFmpeg and PortAudio across macOS, Linux, and Windows, as well as setting up a Python virtual environment using Pipenv, pip, or conda.
 
